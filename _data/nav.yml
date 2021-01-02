@@ -1,0 +1,80 @@
+- name: KURUMSAL
+  link: #
+  subnav:
+    - name: Genel Başkanın Mesajı
+      link: /genel-baskanin-mesaji.html
+    - name: Yönetim Kurulu
+      link: /yonetim-kurulu.html
+    - name: Divan Kurulu
+      link: /divan-kurulu.html
+    - name: Vizyonumuz
+      link: /vizyonumuz.html
+    - name: Misyonumuz
+      link: /misyonumuz.html
+    - name: Derneğimiz
+      link: /dernegimiz.html
+    - name: Dernek Tüzüğü
+      link: /dernek-tuzugu.html
+    - name: Raporlar
+      link: /raporlar.html
+    - name: Kurumsal Kimlik
+      link: /kurumsal-kimlik.html
+    - name: İK
+      link: /ik.html  
+- name: TEŞKİLATIMIZ
+  link: /teskilatimiz.html
+  subnav:
+    - name: Genç MİSİAD
+      link: /genc-misiad.html
+    - name: MİSİAD Akademi
+      link: /misiad-akademi.html
+    - name: Altın Markalar Birliği
+      link: /altin-markalar-birligi.html
+    - name: Kadın Girişimciler Platformu
+      link: /kadin-girisimciler-platformu.html
+    - name: Memleketçi Ticaret Portalı
+      link: /memleketci-ticaret-portali.html
+    - name: Projeler ve Yatırım Portalı
+      link: /projeler-ve-yatirim-portali.html
+- name: ŞUBELERİMİZ
+  link: /teskilatimiz.html
+  subnav:
+    - name: Yurtiçi Şubeler
+      link: /yurtici-subeler.html
+    - name: Bölge Başkanlıkları
+      link: /bolge-baskanliklari.html
+    - name: Yurtdışı Temsilciliklerimiz
+      link: /yurtdisi-temsilciliklerimiz.html
+- name: AHİLİK
+  link: /ahilik.html
+  subnav:
+    - name: Ahilik Nedir?
+      link: /ahilik-nedir.html
+    - name: Ahili Nasihatı
+      link: /ahilik-nasihati.html
+    - name: Ahilik Tanıtım Filmi
+      link: /ahilik-tanitim-filmi.html
+- name: MEDYA
+  link: /medya.html
+  subnav:
+    - name: Başkan Galeri
+      link: /baskan-galeri.html
+    - name: Etkinlik Galeri
+      link: /etkinlik-galeri.html
+    - name: Videolar
+      link: /videolar.html
+    - name: Kurumsal Kimlik
+      link: /kurumsal-kimlik.html
+    - name: Duyurular
+      link: /duyurular.html
+- name: BASINDA MİSİAD
+  link: /basinda-misiad.html
+  subnav:
+    - name: MİSİAD HABER ARŞİVİ
+      link: /misiad-haber-arsivi.html
+    - name: 2019 MİSİAD Haberleri
+      link: /2019-misiad-haberleri.html
+    - name: 2020 MİSİAD Haberleri
+      link: /2020-misiad-haberleri.html
+- name: İLETİŞİM
+  link: /iletisim.html

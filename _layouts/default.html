@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     {% feed_meta %}
     {% seo %}
+    <script src="https://kit.fontawesome.com/9a2f12287f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/site.css">
   </head>
   <body>
+    {% include nav.html %}
     <section>
       {{ content }}
     </section>
@@ -14,6 +16,9 @@
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
+
+    {% include footer.html %}
+    <script src="{{ base.url | prepend: site.url }}/assets/js/main.js"></script>
   </body>
 </html>
 
