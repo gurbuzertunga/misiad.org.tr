@@ -18,3 +18,33 @@ Array.from(navElement).forEach(element => {
     const lastLi  = Array.from(navElement);
     lastLi[lastLi.length - 1].lastElementChild.className = ' ';
 })
+
+var mySwiper = new Swiper ('.swiper-container', {
+
+    
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    autoplay: {
+        delay: 5000,
+      },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+
+  mySwiper.autoplay.start();

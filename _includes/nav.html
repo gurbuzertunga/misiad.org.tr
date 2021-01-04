@@ -1,8 +1,8 @@
-<nav class="bg-gradient-to-r from-yellow-800 to-yellow-500 py-5 flex justify-around">
+<nav class="bg-gradient-to-r from-yellow-800 to-yellow-500 py-5 flex justify-around ">
     <div class="flex justify-between w-1/3">
         <p class="align-baseline text-sm text-white"><i class="fas fa-envelope font-light"></i> info@misiad.org.tr</p>
-        <p class="align-baseline text-sm mt-1 text-white"><i class="fas fa-phone-alt"><span class="font-light">0 (312) 440 11 11</span></i></p>
-        <p class="align-baseline text-sm mt-1 text-white"><i class="fas fa-phone-alt"><span class="font-light">0 (850) 420 66 76</span></i></p>   
+        <p class="align-baseline text-sm mt-1 text-white"><i class="fas fa-phone-alt mr-2"><span class="font-light">0 (312) 440 11 11</span></i></p>
+        <p class="align-baseline text-sm mt-1 text-white"><i class="fas fa-phone-alt mr-2"><span class="font-light">0 (850) 420 66 76</span></i></p>   
     </div>
     <div class="w-2/4 flex justify-end">
         <a class="px-3" href="https://twitter.com/misiad2014"><i class="fab fa-twitter-square text-blue-500 text-xl"></i></a>
@@ -12,7 +12,7 @@
         <a class="px-3" href="https://wa.me/00908504955180"><i class="fab fa-whatsapp-square text-green-500 text-xl"></i></a>
     </div>
 </nav>
-<nav class="py-5 flex justify-around">
+<nav class="py-5 flex justify-around z-10">
     <div class="w-1/3 justify-start">
         <img src="../assets/images/misiadlogo.png" alt="Misiad Logo" class="pl-3">
     </div>
@@ -21,7 +21,7 @@
             {% for item in site.data.nav %}
             <div class="relative nav-element">
               <a class="px-4 relative" href="{{ item.link }}">{{ item.name }}</a>
-                <ul class="absolute mt-2 bg-yellow-800 p-4 hidden" id="subnav-element">
+                <ul class="absolute mt-2 bg-yellow-800 p-4 hidden z-10" id="subnav-element">
               {% for subitem in item.subnav %}
                 <li class="text-white py-2" style="width: max-content;"><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
               {% endfor %}

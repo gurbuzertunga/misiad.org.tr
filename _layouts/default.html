@@ -1,24 +1,29 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    {% feed_meta %}
-    {% seo %}
-    <script src="https://kit.fontawesome.com/9a2f12287f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/site.css">
-  </head>
-  <body>
-    {% include nav.html %}
-    <section>
-      {{ content }}
-    </section>
 
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  {% feed_meta %} {% seo %}
 
-    {% include footer.html %}
-    <script src="{{ base.url | prepend: site.url }}/assets/js/main.js"></script>
-  </body>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>MİSİAD - MEMLEKETÇİ SANAYİCİ İŞ ADAMLARI DERNEĞİ</title>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9a2f12287f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="shortcut icon" href="../assets/images/favicon.png">
+</head>
+
+<body>
+  {% include nav.html %}
+  <section class="z-0">{{ content }}</section>
+
+  {% if jekyll.environment == 'production' %} {% include analytics.html %} {%
+  endif %} {% include footer.html %}
+  <script src="{{ base.url | prepend: site.url }}/assets/js/main.js"></script>
+</body>
+
 </html>
-
