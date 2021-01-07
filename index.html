@@ -145,10 +145,10 @@ layout: default
   <div class="flex flex-col align-bottom">
 
 
-    <a href="http://misiadportal.com/"><div class="p-10 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
-      <i class="fas fa-search border bg-transparent p-4  text-2xl text-white font-bold rounded-full border-blue-600" style="left: 1vw"></i>
-      <button class="text-white font-extrabold mx-4 pl-6 text-left" >MİSİAD MEMLEKETÇİ TİCARET PORTALI<br><span class="font-light">Misiad Memleketçi Ticaret Portalını incelemek ve kayıt<br> olmak için tıklayın</span></button>
-      <p class="ml-4 rounded-full text-blue-600 text-center px-2 bg-white" style="right: 1vw;top:4vw;">></p>
+    <a href="http://misiadportal.com/"><div class="relative p-10 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
+      <i class="fas fa-search border bg-transparent p-4 mr-12 absolute text-2xl text-white font-bold rounded-full border-blue-600" style="left: 1vw"></i>
+      <button class="text-white font-extrabold mx-4 pl-6 text-left" >MİSİAD MEMLEKETÇİ TİCARET PORTALI<br><span class="font-light text-right">Misiad Memleketçi Ticaret Portalını İncelemek ve kayıt<br> olmak için tıklayın</span></button>
+      <p class="rounded-full text-blue-600 absolute ml-12 px-2 bg-white" style="right: 1vw;top:4vw;">></p>
     </div></a>
   
 
@@ -165,8 +165,201 @@ layout: default
 
 <!-- AHİLİK -->
 
-<div>
+<div class="my-10">
+  <h5 class="text-center text-4xl mx-auto font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">Ahilik</h5>
+  <div class="mx-24 mt-10 grid gap-4 grid-cols-3">
 
+    <div class="" style="background-image: 
+    linear-gradient(
+      rgba(0, 0, 255, 0.6), 
+      rgba(0, 0, 255, 0.6)
+    ),
+    url(./assets/images/th_ahilik-nedir.jpg);
+    background-size: stretch;
+    background-repeat: no-repeat;">
+    <div class="flex flex-col justify-center w-full">
+      <div class="w-1/4 h-2/4 self-center	">
+      <img src="./assets/images/arrow.svg" alt="">
+      </div>
+      <a href="/ahilik-nedir.html"><p class="text-center py-3 text-2xl text-yellow-500 font-bold">Ahilik Nedir?</p></a>
+      <p class="text-center py-3 text-white font-thin">Ahilik Nedir? Ahilik Tarihi ve Ahi Evran</p>
+    </div>
+    </div>
+
+     <div class="" style="background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(0, 0, 255, 0.6), 
+      rgba(0, 0, 255, 0.6)
+    ),
+    /* your image */
+    url(./assets/images/th_1-8-png-ahilik-nasihati.jpg);
+    background-size: stretch;
+    background-repeat: no-repeat;">
+    <div class="flex flex-col justify-center w-full">
+      <div class="w-1/4 h-2/4 self-center	">
+      <img src="./assets/images/arrow.svg" alt="">
+      </div>
+      <a href="/ahilik-nasihati.html"><p class="text-center py-3 text-2xl text-yellow-500 font-bold">Ahilik Nasihatı</p></a>
+      <p class="text-center py-3 text-white font-thin">Ahilik Nasihatı Nedir? Öğretileri nelerdir?</p>
+    </div>
+    </div>
+
+    <div class="" style="background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(0, 0, 255, 0.6), 
+      rgba(0, 0, 255, 0.6)
+    ),
+    /* your image */
+    url(./assets/images/th_ahilik-nedir.jpg);
+    background-size: stretch;
+    background-repeat: no-repeat;">
+    <div class="flex flex-col justify-center w-full">
+      <div class="w-1/4 h-2/4 self-center	">
+      <img src="./assets/images/arrow.svg" alt="">
+      </div>
+      <a href="/ahilik-tanitim-filmi.html"><p class="text-center py-3 text-2xl text-yellow-500 font-bold">Ahilik Tanıtım Filmi</p></a>
+      <p class="text-center py-3 text-white font-thin">Ahilik Tanıtım Filmi</p>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- İLETİŞİM -->
+
+{% include iletisim.html %}
+
+<!-- MİSİAD YÖNETİM KURULU -->
+<h5 class="text-left text-4xl ml-32 font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">Misiad Yönetim Kurulu</h5>
+<p class="text-left ml-32 font-light text-gray-700 mt-5">Memleketçi sanayici ve işadamları derneğine değer katan yönetim kurulu üyelerimiz.</p>
+<div x-data="{swiper: null}"
+  x-init="swiper = new Swiper($refs.container, {
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 0,
+  
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 0,
+        },
+      },
+    })"
+  class="relative w-10/12 mx-auto flex flex-row"
+>
+  <div class="absolute inset-y-0 left-0 z-10 flex items-center">
+    <button @click="swiper.slidePrev()" 
+            class="bg-white -ml-2 lg:-ml-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
+      <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-left w-6 h-6"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+    </button>
+  </div>
+
+  <div class="swiper-container" x-ref="container">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/ahmet-karaarslan.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+                <p class="text-white text-2xl font-bold text-center">Ahmet Karaarslan</p>
+                <p class="text-white font-thin text-center hidden detaylar">Sayman, Yatırım ve Fon Geliştirmeden Sorumlu Başkan Yardımcısı</p>
+            </div>
+          </div>
+        </div>
+      </div>
+              
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-0contain" src="./assets/images/yonetim/feridun-oncel.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Feridun Öncel</p>
+              <p class="text-white font-thin text-center hidden detaylar">Genel Başkan</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/huseyin-ayaydin.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Hüseyin Araydın</p>
+              <p class="text-white font-thin text-center hidden detaylar">Disiplinden Sor. Gnl. Bşk. Yrd.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/huseyin-oncel.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Hüseyin Öncel</p>
+              <p class="text-white font-thin text-center hidden detaylar">Genç MİSİAD'dan Sorumlu Gnl. Bşk. Yrd.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/turgut-yıldız.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Turgut Yıldız</p>
+              <p class="text-white font-thin text-center hidden detaylar">STK'lardan Sorumlu Gnl. Bşk. Yrd.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/yucel-ozer.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Süleyman Yücel Özer</p>
+              <p class="text-white font-thin text-center hidden detaylar">Genel Başkan Başdanışmanı</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0 relative">
+            <img class="h-52 w-full object-contain" src="./assets/images/yonetim/zeki-gumus.jpg" alt="">
+            <div class="absolute bottom-0 w-full p-5 bg-yellow-600 hover:bg-yellow-500 detaylar-container">
+              <p class="text-white text-2xl font-bold text-center">Zeki Gümüş</p>
+              <p class="text-white font-thin text-center hidden detaylar">AR-GE'den Sorumlu Gnl. Bşk. Yrd.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="absolute inset-y-0 right-0 z-10 flex items-center">
+    <button @click="swiper.slideNext()" 
+            class="bg-white -mr-2 lg:-mr-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
+      <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+    </button>
+  </div>
 </div>
 
 
