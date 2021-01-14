@@ -1,0 +1,446 @@
+- city: Adana/Tufanbeyli
+  person: Murtaza Öztürk
+  phone: 0850
+  email: tufanbeyli@misiad.org.tr
+  web: "-"
+- city: Afyon/Emirdağ
+  person: Selim Öztaş
+  phone: 0850
+  email: emirdag@misiad.org.tr
+  web: "-"
+- city: Ağrı/Merkez
+  person: Ahmet Dursun
+  phone: 0850
+  email: agri@misiad.org.tr
+  web: "-"
+- city: Aksaray/Ağaçören
+  person: Şakir Yeşilöz
+  phone: 0850
+  email: agacoren@misiad.org.tr
+  web: "-"
+- city: Ankara/Beypazarı
+  person: Okan Gümüş
+  phone: 0850
+  email: beypazari@misiad.org.tr
+  web: "-"
+- city: Ankara/Çankaya
+  person: Hakkı Özeyranoğlu
+  phone: 0850
+  email: cankaya@misiad.org.tr
+  web: "-"
+- city: Ankara/Etimesgut
+  person: Ufuk Karakayacı
+  phone: 0850
+  email: etimesgut@misiad.org.tr
+  web: "-"
+- city: Ankara/Gölbaşı
+  person: Erdinç Koç
+  phone: 0850
+  email: golbasi@misiad.org.tr
+  web: "-"
+- city: Ankara/Keçiören
+  person: Salih Durbaba
+  phone: 0850
+  email: kecioren@misiad.org.tr
+  web: "-"
+- city: Ankara/Merkez
+  person: Tibet Kaan
+  phone: 0850
+  email: ankara@misiad.org.tr
+  web: "-"
+- city: Ankara/Ostim
+  person: Hakan Körpeş
+  phone: 0850
+  email: ostim@misiad.org.tr
+  web: "-"
+- city: Ankara/Yenimahalle
+  person: Metin Kızılbulut
+  phone: 0850
+  email: yenimahalle@misiad.org.tr
+  web: "-"
+- city: Antalya/Alanya
+  person: Mehmet Ali Hamitoğlu
+  phone: 0850
+  email: alanya@misiad.org.tr
+  web: "-"
+- city: Antalya/Manavgat
+  person: Zümrüt Yılmaz
+  phone: 0850
+  email: manavgat@misiad.org.tr
+  web: "-"
+- city: Antalya/Merkez
+  person: Taner Kırankaya
+  phone: 0850
+  email: antalya@misiad.org.tr
+  web: "-"
+- city: Antalya/Muratpaşa
+  person: Muhammed Arslan
+  phone: 0850
+  email: muratpasa@misiad.org.tr
+  web: "-"
+- city: Aydın/Kuşadası
+  person: Tansel Çetin
+  phone: 0850
+  email: kusadasi@misiad.org.tr
+  web: "-"
+- city: Batman/Merkez
+  person: Namet Sırlan
+  phone: 0850
+  email: batman@misiad.org.tr
+  web: "-"
+- city: Bolu/Merkez
+  person: Uğur Sarıkaya
+  phone: 0850
+  email: bolu@misiad.org.tr
+  web: "-"
+- city: Bursa/Merkez
+  person: Erol Taşçı
+  phone: 0850
+  email: bursa@misiad.org.tr
+  web: "-"
+- city: Çanakkale/Merkez
+  person: Mustafa Yıldıran
+  phone: 0850
+  email: canakkale@misiad.org.tr
+  web: "-"
+- city: Çorum/Merkez
+  person: Satılmış Bıçakcı
+  phone: 0850
+  email: corum@misiad.org.tr
+  web: "-"
+- city: Diyarbakır/Merkez
+  person: Fırat Özmen
+  phone: 0850
+  email: diyarbakir@misiad.org.tr
+  web: "-"
+- city: Düzce/Merkez
+  person: Kemal Kara
+  phone: 0850
+  email: duzce@misiad.org.tr
+  web: "-"
+- city: Elazığ/Merkez
+  person: Murat Aygen
+  phone: 0850
+  email: elazig@misiad.org.tr
+  web: "-"
+- city: Erzurum/Merkez
+  person: Muhsin Yılmaz
+  phone: 0850
+  email: erzurum@misiad.org.tr
+  web: "-"
+- city: Eskişehir/Merkez
+  person: Uğur Yalaz
+  phone: 0850
+  email: eskisehir@misiad.org.tr
+  web: "-"
+- city: Gaziantep
+  person: Muhammet Yıldız
+  phone: 0850
+  email: gaziantep@misiad.org.tr
+  web: "-"
+- city: Hakkari/Merkez
+  person: Mikail Adıyaman
+  phone: 0850
+  email: hakkari@misiad.org.tr
+  web: "-"
+- city: Hatay
+  person: Gökhan Orçun Gençkol
+  phone: 0850
+  email: hatay@misiad.org.tr
+  web: "-"
+- city: Hatay/Dörtyol
+  person: Tufan Can
+  phone: 0850
+  email: dortyol@misiad.org.tr
+  web: "-"
+- city: Iğdır/Merkez
+  person: Serkan Güngör
+  phone: 0850
+  email: igdir@misiad.org.tr
+  web: "-"
+- city: İstanbul/Ataşehir
+  person:	Aziz Sadi Demirkaya Tel
+  phone: 0850
+  email: atasehir@misiad.org.tr
+  web: "-"
+- city: İstanbul/Bahçelievler
+  person:	Remzi Dağdeviren
+  phone: 0850
+  email: bahcelievler@misiad.org.tr
+  web: "-"
+- city: İstanbul/Bakırköy
+  person:	Mehmet Emre Demiral
+  phone: 0850
+  email: bakirkoy@misiad.org.tr
+  web: "-"
+- city: İstanbul/Beykoz
+  person:	Halil İbrahim Kutlu
+  phone: 0850
+  email: beykoz@misiad.org.tr
+  web: "-"
+- city: İstanbul/Beylikdüzü
+  person: Adnan Nejat Saraçoğlu
+  phone: 0850
+  email: beylikduzu@misiad.org.tr
+  web: "-"
+- city: İstanbul/Esenyurt
+  person: Emrullah Atlı
+  phone: 0850
+  email: esenyurt@misiad.org.tr
+  web: "-"
+- city: İstanbul/Kadıköy
+  person: Cevdet Karakaya
+  phone: 0850
+  email: kadikoy@misiad.org.tr
+  web: "-"
+- city: İstanbul/Küçükçekmece
+  person: Mustafa Akça
+  phone: 0850
+  email: kucukcekmece@misiad.org.tr
+  web: "-"
+- city: İstanbul/Merkez
+  person: Levent Gezen
+  phone: 0850
+  email: istanbul@misiad.org.tr
+  web: "-"
+- city: İstanbul/Şerifali
+  person: Mustafa Gök
+  phone: 0850
+  email: serifali@misiad.org.tr
+  web: "-"
+- city: İstanbul/Tuzla
+  person: Erol Durak
+  phone: 0850
+  email: tuzla@misiad.org.tr
+  web: "-"
+- city: İstanbul/Ümraniye
+  person: Mehmet Sedat Mangan
+  phone: 0850
+  email: umraniye@misiad.org.tr
+  web: "-"
+- city: İzmir/Buca
+  person: Burak Ağca
+  phone: 0850
+  email: buca@misiad.org.tr
+  web: "-"
+- city: İzmir/Gaziemir
+  person: Rıdvan Teker
+  phone: 0850
+  email: gaziemir@misiad.org.tr
+  web: "-"
+- city: İzmir/Karşıyaka
+  person: Mustafa Ferhat Yüksel
+  phone: 0850
+  email: karsiyaka@misiad.org.tr
+  web: "-"
+- city: İzmir/Merkez
+  person: Mustafa Üstün
+  phone: 0850
+  email: izmir@misiad.org.tr
+  web: "-"
+- city: Kahramanmaraş/Merkez
+  person: Bayazıt Palabıyık
+  phone: 0850
+  email: kahramanmaras@misiad.org.tr
+  web: "-"
+- city: Karabük/Merkez
+  person: Ramazan Yalçın
+  phone: 0850
+  email: karabuk@misiad.org.tr
+  web: "-"
+- city: Kayseri/Melikgazi
+  person: Mustafa Kaplan
+  phone: 0850
+  email: melikgazi@misiad.org.tr
+  web: "-"
+- city: Kayseri/Merkez
+  person: Ayhan Kutluğ
+  phone: 0850
+  email: kayseri@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Bahşılı
+  person: Selami Şimşek
+  phone: 0850
+  email: bahsili@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Balışeyh
+  person: Yahya Coşkun
+  phone: 0850
+  email: baliseyh@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Çelebi
+  person: Oktay Babadağ
+  phone: 0850
+  email: celebi@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Delice
+  person: Ahmet Taplaktepe
+  phone: 0850
+  email: delice@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Hacılar Kasabası
+  person: Yakup Güneş
+  phone: 0850
+  email: hacilar@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Karakeçili
+  person: İsa Coşkun
+  phone: 0850
+  email: karakecili@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Keskin
+  person: Müfit Aslan
+  phone: 0850
+  email: keskin@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Merkez
+  person: İbrahim Yaman
+  phone: 0850
+  email: kirikkale@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Solakyurt
+  person: Hacı Veli Erman
+  phone: 0850
+  email: solakyurt@misiad.org.tr
+  web: "-"
+- city: Kırıkkale/Yahşihan
+  person: Mustafa Çayır
+  phone: 0850
+  email: yahsihan@misiad.org.tr
+  web: "-"
+- city: Kocaeli/Darıca
+  person: Mustafa Bayramoğlu
+  phone: 0850
+  email: darica@misiad.org.tr
+  web: "-"
+- city: Kocaeli/Gebze
+  person: Ali Cengiz
+  phone: 0850
+  email: gebze@misiad.org.tr
+  web: "-"
+- city: Kocaeli/İzmit
+  person: İbrahim Solmaz
+  phone: 0850
+  email: izmit@misiad.org.tr
+  web: "-"
+- city: Kocaeli/Merkez
+  person: Serhat Erdoğan
+  phone: 0850
+  email: kocaeli@misiad.org.tr
+  web: "-"
+- city: Konya/Merkez
+  person: Yusuf Çal
+  phone: 0850
+  email: konya@misiad.org.tr
+  web: "-"
+- city: Kütahya/Merkez
+  person: Ali Rıza Doğru
+  phone: 0850
+  email: kutahya@misiad.org.tr
+  web: "-"
+- city: Manisa/Merkez
+  person: Mehmet Sağlam
+  phone: 0850
+  email: manisa@misiad.org.tr
+  web: "-"
+- city: Mardin/Kızıltepe
+  person: Cesur Bahadıroğlu
+  phone: 0850
+  email: kiziltepe@misiad.org.tr
+  web: "-"
+- city: Mardin/Merkez
+  person: Mesut Öztürk
+  phone: 0850
+  email: mardin@misiad.org.tr
+  web: "-"
+- city: Mersin/Merkez
+  person: Serkan Yakan
+  phone: 0850
+  email: mersin@misiad.org.tr
+  web: "-"
+- city: Muğla/Bodrum
+  person: Muharrem Buğra Çetin
+  phone: 0850
+  email: bodrum@misiad.org.tr
+  web: "-"
+- city: Muğla/Datça
+  person: Erdal Kanar
+  phone: 0850
+  email: datca@misiad.org.tr
+  web: "-"
+- city: Nevşehir/Merkez
+  person: Adnan Şar
+  phone: 0850
+  email: nevsehir@misiad.org.tr
+  web: "-"
+- city: Niğde/Merkez
+  person: Bünyamin Korkmaz
+  phone: 0850
+  email: nigde@misiad.org.tr
+  web: "-"
+- city: Samsun/Merkez
+  person: Ferit Borasi
+  phone: 0850
+  email: samsun@misiad.org.tr
+  web: "-"
+- city: Şanlıurfa/Akçakale
+  person: Ahmet Emin Meşhurgül
+  phone: 0850
+  email: akcakale@misiad.org.tr
+  web: "-"
+- city: Şanlıurfa/Birecik
+  person: Şevket Demir
+  phone: 0850
+  email: birecik@misiad.org.tr
+  web: "-"
+- city: Şanlıurfa/Merkez
+  person: Ömer Ağ
+  phone: 0850
+  email: sanliurfa@misiad.org.tr
+  web: "-"
+- city: Şanlıurfa/Suruç
+  person: Müslüm Demir
+  phone: 0850
+  email: suruc@misiad.org.tr
+  web: "-"
+- city: Şırnak/Cizre
+  person: Seyithan Direkçi
+  phone: 0850
+  email: cizre@misiad.org.tr
+  web: "-"
+- city: Tokat/Merkez
+  person: Serdar Yakar
+  phone: 0850
+  email: tokat@misiad.org.tr
+  web: "-"
+- city: Trabzon/Merkez
+  person: Onur Kurt
+  phone: 0850
+  email: trabzon@misiad.org.tr
+  web: "-"
+- city: Uşak/Merkez
+  person: Engin Çiftçi
+  phone: 0850
+  email: usak@misiad.org.tr
+  web: "-"
+- city: Van/Merkez
+  person: Mahsun Korkmaz
+  phone: 0850
+  email: van@misiad.org.tr
+  web: "-"
+- city: Yalova/Merkez
+  person: Mehmet Fatih Us
+  phone: 0850
+  email: yalova@misiad.org.tr
+  web: "-"
+- city: Zonguldak/Merkez
+  person: Üsame Egin
+  phone: 0850
+  email: zonguldak@misiad.org.tr
+  web: "-"
+- city: Zonguldak/Devrek
+  person: İsmail Akkaş
+  phone: 0850
+  email: devrek@misiad.org.tr
+  web: "-"
+

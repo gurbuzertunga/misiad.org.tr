@@ -1,0 +1,44 @@
+---
+layout: subelerimiz
+permalink: yurtdisi-temsilciliklerimiz.html
+title: Yurtdışı Temsilciliklerimiz
+---
+{% for item in site.data.yurtdisi %}
+<div class="border border-gray-800  ml-12 mb-12">
+    <div class="bg-yellow-700">
+        <p class="text-2xl text-white text-center">{{item.city}}</p>
+    </div>
+    <div class="flex">
+        <div class="p-3 border border-gray-600">
+            <i class="fas fa-user-alt text-blue-700"></i>
+        </div>
+        <div class="p-3 border border-gray-600 w-full">
+            <p>{{item.person}}</p>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="p-3 border border-gray-600">
+            <i class="fas fa-phone-alt text-blue-700"></i>
+        </div>
+        <div class="p-3 border border-gray-600 w-full">
+            <p>{{item.phone}}</p>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="p-3 border border-gray-600">
+            <i class="fas fa-envelope text-blue-700"></i>
+        </div>
+        <div class="p-3 border border-gray-600 w-full">
+            <p>{{item.email}}</p>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="p-3 border border-gray-600">
+            <i class="fas fa-globe-europe text-blue-700"></i>
+        </div>
+        <div class="p-3 border border-gray-600 w-full">
+            <p>{{item.web}}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}

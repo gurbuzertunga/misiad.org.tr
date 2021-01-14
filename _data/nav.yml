@@ -37,7 +37,7 @@
     - name: Projeler ve Yatırım Portalı
       link: /projeler-ve-yatirim-portali.html
 - name: ŞUBELERİMİZ
-  link: /teskilatimiz.html
+  link: /subelerimiz.html
   subnav:
     - name: Yurtiçi Şubeler
       link: /yurtici-subeler.html
