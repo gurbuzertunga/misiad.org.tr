@@ -1,0 +1,26 @@
+---
+layout: medya
+permalink: basinda-misiad.html
+title: Basında Misiad
+---
+
+<ul class="grid grid-cols-3 ml-10">
+    {% for item in site.data.ikibin20haberleri %}
+    <li class="p-8">
+        <div>
+                <div class="teskilat-resim mb-10 p-24 relative"
+                    style="background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),{{item.image}};background-size: cover;background-repeat: no-repeat;">
+                    <a href="{{item.link}}">
+                    <div class="absolute top-0 left-0 p-2 ml-4 mt-4 border border-white bg-yellow-700 hover:bg-transparent hover:text-black">
+                        <p class="text-center text-white">{{item.date}}</p>
+                    </div>
+                    </a>
+                </div>
+            <a href="{{item.link}}">
+            <h5 class="font-bold text-xl">{{item.title}}</h5>
+            </a>
+            <p class="font-light">{{item.text}}</p>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

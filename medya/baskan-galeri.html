@@ -1,0 +1,10 @@
+---
+layout: medya
+permalink: baskan-galeri.html
+title: Başkan Galeri
+---
+<ul class="grid grid-cols-3">
+    {% for item in site.data.baskangaleri %}
+    <li class="p-8"><img src="{{item.link}}" alt=""></li>
+    {% endfor %}
+</ul>

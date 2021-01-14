@@ -1,0 +1,10 @@
+---
+layout: medya
+permalink: videolar.html
+title: Videolar
+---
+<ul class="grid grid-cols-2">
+    {% for item in site.data.videolar %}
+    <li class="p-8">{{item.link}}</li>
+    {% endfor %}
+</ul>
