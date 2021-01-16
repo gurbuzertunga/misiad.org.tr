@@ -3,12 +3,12 @@ layout: default
 ---
 {% include main-slider.html %}
 
-<div class="grid grid-cols-10 my-10">
-  <div class="col-start-2 col-end-9 flex justify-between">
+<div class="flex  m-10">
+  <div class="flex flex-col md:flex-row  justify-between">
     <div class="image-container mr-10">
       <img src="./assets/images/genelbaskan.jpg" alt="Genel Baskan Feridun Oncel">
     </div>
-    <div class="text-container w-2/4">
+    <div class="text-container">
         <h3 class="text-4xl mb-6 font-black	 border-b-2 border-yellow-500">MİSİAD GENEL BAŞKANIMIZ<br>
           FERİDUN ÖNCEL</h3>
           <h5 class="text-2xl font-bold my-4">MİSİAD Birleştirici, bütünleştirici, kucaklayan, mütevazi, birbirinin eksiğini kapamaya, sevincini paylaşmaya adanmışların ortaklığıdır.
@@ -16,15 +16,15 @@ layout: default
           <p class="font-light">Çağrımız, “Birlik ve beraberlik içinde olmak”, derdimiz “Parti, Memleket, Anlayış farkı gözetmeden Vatanımıza,Devletimize ve Milletimize hizmet etmek.”, prensibimiz, “Kardeşçe ve Dürüstçe Yan Yana Gelmektir.”
 
           </p>
-          <button class="mt-2 uppercase px-8 py-2 rounded bg-yellow-300 text-yellow-600 max-w-max shadow-sm hover:shadow-md">GENEL BAŞKANIN MESAJI</button>
+          <button class="mt-2 uppercase px-8 py-2 rounded bg-yellow-300 text-yellow-600 max-w-max shadow-sm hover:shadow-md"><a href="/genel-baskanin-mesaji.html">GENEL BAŞKANIN MESAJI</a></button>
     </div>
   </div>
 </div>
 
-<div class="flex justify-around w-60 my-5">
- <a href="/yurtici-subeler.html"><button class="p-10 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/yurtici-logo.png" alt="Misiad Yurtiçi Şubeler" class="pr-2"> MİSİAD Yurtiçi Şubeler</button></a>
- <a href="/yurtdisi-temsilciliklerimiz.html"><button class="p-10 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/dunya-beyaz.png" alt="Misiad Yurtdışı temsilcilikler" class="pr-2"> MİSİAD Yurtdışı<br> Temsilcilikler</button></a>
- <a href="/iletisim.html"><button class="p-10 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/misiadlogo-beyaz.png" alt="Misiad Yurtdışı Temsilcilikler" class="pr-2"> MİSİAD Üyelik Başvurusu</button></a>
+<div class="flex flex-col md:flex-row md:justify-around items-center w-60 my-5">
+ <a href="/yurtici-subeler.html"><button class="md:p-10 p-2 m-5 md:m-1 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/yurtici-logo.png" alt="Misiad Yurtiçi Şubeler" class="pr-2"> MİSİAD Yurtiçi Şubeler</button></a>
+ <a href="/yurtdisi-temsilciliklerimiz.html"><button class="md:p-10 p-2 m-5 md:m-1 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/dunya-beyaz.png" alt="Misiad Yurtdışı temsilcilikler" class="pr-2"> MİSİAD Yurtdışı<br> Temsilcilikler</button></a>
+ <a href="/iletisim.html"><button class="md:p-10 p-2 m-5 md:m-1 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base"><img src="./assets/images/misiadlogo-beyaz.png" alt="Misiad Yurtdışı Temsilcilikler" class="pr-2"> MİSİAD Üyelik Başvurusu</button></a>
 </div>
 
 
@@ -32,11 +32,11 @@ layout: default
  <div class="bg-gray-200 pb-10">
   <h5 class="text-center text-4xl mx-auto font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">TEŞKİLATIMIZ</h5>
 
-<div class="blogs__wraper  grid grid-cols-11 my-6 mt-24">
+<div class="blogs__wraper  grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mb-6 mx-12 mt-24">
      
   
 
-<div class="blogs bg-white mr-5 border border-yellow-500 col-start-2 col-span-3">
+<div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
  <a href="/genc-misiad.html"><div class="flex justify-center mt-2">
     <img src="./assets/images/genc-misiad.jpg">
   </div></a>
@@ -48,7 +48,7 @@ layout: default
 </div>
 
 
-<div class="blogs bg-white mr-5 border border-yellow-500 col-start-5 col-span-3">
+<div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
   <a href="/misiad-akademi.html"><div class="flex justify-center mt-2">
    <img src="./assets/images/th_misiad-akademi.jpg">
   </div></a>
@@ -61,7 +61,7 @@ layout: default
    </div>
 </div>
 
-<div class="blogs bg-white mr-5 border border-yellow-500 col-start-8 col-span-3">
+<div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
   <a href="/altin-markalar-birligi.html"><div class="flex justify-center mt-2">
    <img src="./assets/images/th_altin-markalar-birligi.jpg">
   </div></a>
@@ -77,11 +77,11 @@ layout: default
 </div>
 
   <!-- cards lvl 2 -->
-<div class="blogs__wraper  grid grid-cols-11 my-6">
+<div class="blogs__wraper  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-6 mx-12 mt-24">
      
   
 
-  <div class="blogs bg-white mr-5 border border-yellow-500 col-start-2 col-span-3">
+  <div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
     <a href="/kadin-girisimciler-platformu.html"><div class="flex justify-center mt-2">
       <img src="./assets/images/th_kadin-girisimciler-platformu.jpg">
      </div></a>
@@ -93,7 +93,7 @@ layout: default
   </div>
   
 
-  <div class="blogs bg-white mr-5 border border-yellow-500 col-start-5 col-span-3">
+  <div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
     <a href="/memleketci-ticaret-portali.html"><div class="flex justify-center mt-2">
       <img src="./assets/images/th_memleketci-ticaret-portali.jpg">
      </div></a>
@@ -104,7 +104,7 @@ layout: default
      </div>
   </div>
   
-  <div class="blogs bg-white mr-5 border border-yellow-500 col-start-8 col-span-3">
+  <div class="blogs bg-white mr-5 mt-10 md:mt-1 border border-yellow-500">
     <div class="flex justify-center mt-2">
      <img src="./assets/images/th_memleketci-ticaret-portali.jpg">
     </div>
@@ -122,8 +122,8 @@ layout: default
 
 <!-- MİSYON VE VİZYON -->
 
-<div class="flex flex-col lg:flex-row justify-between m-24">
-  <div class="w-2/4">
+<div class="flex flex-col xl:flex-row justify-between md:m-24">
+  <div class="ml-10">
     <h2 class="text-4xl mx-auto font-extrabold border-b-2 border-0 border-yellow-700 text-left">MİSİAD Misyon Ve Vizyon</h2><br>
     <p class="font-light">MİSİAD, Vizyonu, Ahilik ilkelerini baz alarak “Güçlü yerli ekonomi, Güçlü Türkiye” sevdası ile inanmış Sanayici ve İşadamları ile ülke menfaatlerine uygun olarak mali ve ekonomik politikaların geliştirilmesinde söz sahibi olmayı, ekonomik alanda yarınlara çok daha kuvvetli bir Türkiye bırakmak için gönülden çalışmayı esas alır.</p><br>
     <p class="font-light text-gray-600"><i class="fas fa-check text-yellow-700 mr-2"></i>Asil Türk milletinin canı pahasına kurduğu bu vatan, kanımız kadar kutsaldır. Hiçbir şeye feda edilemez.</p>
@@ -133,32 +133,28 @@ layout: default
     <p class="font-light text-gray-600"><i class="fas fa-check text-yellow-700 mr-2"></i>Ticaretimizin örfi ahiliktir. Ahilik ilkeleri ilkelerimizdir.</p>
     <a href="/iletisim.html"><button class="p-10 mt-12 bg-yellow-600 hover:bg-yellow-400 text-white font-extrabold flex justify-between text-base">MİSİAD'a Katılın</button></a>
   </div>
-  <div class="w-1/4 md:w-2/4 pt-4">
-    <iframe style="@media only screen and (max-width: 768px){
-      width: 360; height: 216;
-  }
-  @media only screen and (min-width: 768px){
-      width: 560; height: 316;
-  }
-  " src="https://www.youtube.com/embed/nKcP7P4Y3HY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <div>
+    
+    <iframe class="youtube" src="https://www.youtube.com/embed/nKcP7P4Y3HY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
 
 <!-- portal linkleri -->
 
-<div class="p-24 flex flex-row-reverse" style="background-image: url(./assets/images/ask-bg.jpg);">
+<div class="md:p-24 p-5 flex flex-row-reverse" style="background-image: url(./assets/images/ask-bg.jpg);">
   <div class="flex flex-col align-bottom">
 
 
-    <a href="http://misiadportal.com/"><div class="relative p-10 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
+    <a href="http://misiadportal.com/"><div class="relative md:p-10 p-5 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
       <i class="fas fa-search border bg-transparent p-4 mr-12 absolute text-2xl text-white font-bold rounded-full border-blue-600" style="left: 1vw"></i>
       <button class="text-white font-extrabold mx-4 pl-6 text-left" >MİSİAD MEMLEKETÇİ TİCARET PORTALI<br><span class="font-light text-right">Misiad Memleketçi Ticaret Portalını İncelemek ve kayıt<br> olmak için tıklayın</span></button>
       <p class="rounded-full text-blue-600 absolute ml-12 px-2 bg-white" style="right: 1vw;top:4vw;">></p>
     </div></a>
   
 
-<a href="/projeler-ve-yatirim-portali.html"><div class="relative p-10 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
+<a href="/projeler-ve-yatirim-portali.html"><div class="relative md:p-10 p-5 mt-12 bg-yellow-600 hover:bg-yellow-400 flex justify-between">
       <i class="fas fa-chart-line border bg-transparent p-4 mr-12 absolute text-2xl text-white font-bold rounded-full border-blue-600" style="left: 1vw"></i>
       <button class="text-white font-extrabold mx-4 pl-6 text-left" >MİSİAD PROJELER VE YATIRIM PORTALI<br><span class="font-light text-right">Misiad Projeler ve Yatırım Portalını İncelemek ve kayıt<br> olmak için tıklayın</span></button>
       <p class="rounded-full text-blue-600 absolute ml-12 px-2 bg-white" style="right: 1vw;top:4vw;">></p>
@@ -173,7 +169,7 @@ layout: default
 
 <div class="my-10">
   <h5 class="text-center text-4xl mx-auto font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">Ahilik</h5>
-  <div class="mx-24 mt-10 grid gap-4 grid-cols-3">
+  <div class="mx-24 mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
     <div class="" style="background-image: 
     linear-gradient(
@@ -238,8 +234,8 @@ layout: default
 {% include iletisim.html %}
 
 <!-- MİSİAD YÖNETİM KURULU -->
-<h5 class="text-left text-4xl ml-32 font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">Misiad Yönetim Kurulu</h5>
-<p class="text-left ml-32 font-light text-gray-700 mt-5">Memleketçi sanayici ve işadamları derneğine değer katan yönetim kurulu üyelerimiz.</p>
+<h5 class="text-left text-4xl md:ml-32 ml-5 font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">Misiad Yönetim Kurulu</h5>
+<p class="text-left md:ml-32 ml-5 font-light text-gray-700 mt-5">Memleketçi sanayici ve işadamları derneğine değer katan yönetim kurulu üyelerimiz.</p>
 <div x-data="{swiper: null}"
   x-init="swiper = new Swiper($refs.container, {
       loop: true,
@@ -247,7 +243,7 @@ layout: default
       spaceBetween: 0,
   
       breakpoints: {
-        640: {
+        360: {
           slidesPerView: 1,
           spaceBetween: 0,
         },

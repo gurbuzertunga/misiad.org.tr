@@ -22,3 +22,21 @@ body {
 .detaylar-container:hover > .detaylar { display: block;}
 
 .teskilat-resim:hover { transform: scale(1.1); transition: transform .2s;}
+
+@media only screen and (max-width: 600px) {
+    .youtube {
+        width: 320px;
+        height: 216px;
+        margin: 25px;
+    }
+
+  };
+   @media only screen and (min-width: 601px) {
+    .youtube {
+    width: 560px;
+    height: 316px;
+    margin: 25px;
+    }
+  };
+
+
