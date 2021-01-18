@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="py-24 px-64 w-full mb-24" style="background-image: url(../assets/images/banner.jpg);background-size: contain;"></div>
-<div class="flex mb-10">
-<div class="w-2/4 ml-32 mb-10 relative">
+<div class="py-24 md:px-64 w-full md:mb-24" style="background-image: url(../assets/images/banner.jpg);background-size: cover; background-repeat: no-repeat;"></div>
+<div class="flex flex-col lg:flex-row mb-10">
+<div class="md:w-2/4 md:ml-32 mx-5 mb-10 relative">
     <h5 class="text-left text-4xl mb-10 font-extrabold mt-24 border-b-2 border-0 border-yellow-700" style="width: max-content;">{{page.title}}</h5>
     <div class="text-left font-light text-black">{{ content }}</div><br>
     
 </div>
-<div class="w-2/4">
-    <div class="w-2/3 ml-10 mt-24">
+<div class="md:w-2/4">
+    <div class="lg:w-2/3 md:ml-10 md:mt-24 mt-12">
     
     <img src="{{page.screenshot}}" alt="">
     </div>

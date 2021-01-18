@@ -21935,6 +21935,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .youtube {
+    width: 280px;
+    height: 136px;
+    margin: 25px;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

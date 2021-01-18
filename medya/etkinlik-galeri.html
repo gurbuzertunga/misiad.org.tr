@@ -3,7 +3,7 @@ layout: medya
 permalink: etkinlik-galeri.html
 title: Etkinlik Galeri
 ---
-<ul class="grid grid-cols-3">
+<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
     {% for item in site.data.etkinlikgaleri %}
     <li class="p-8"><img src="{{item.link}}" alt=""></li>
     {% endfor %}
